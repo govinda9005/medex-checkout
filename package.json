@@ -1,0 +1,12 @@
+{
+  "name": "medex-checkout",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MedEx Coupon & Checkout Calculator Full-Stack Assessment",
+  "scripts": {
+    "test": "npm --prefix backend test",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev"
+  }
+}
