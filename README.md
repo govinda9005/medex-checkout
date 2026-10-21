@@ -148,7 +148,7 @@ Open your browser to:
 
 ## 8. How to Run Automated Tests
 
-The automated test suite contains **65 comprehensive unit, integration, and acceptance tests** across 6 test suites, verifying:
+The automated test suite contains **69 comprehensive unit, integration, and acceptance tests** (65 backend tests across 6 test suites + 4 frontend client tests), verifying:
 1. Precision rounding, satang accuracy, and anti-float drift.
 2. Bangkok calendar date interpretation across UTC boundaries.
 3. Every check in the 11-stage coupon pipeline (Checks a through k).
@@ -156,6 +156,7 @@ The automated test suite contains **65 comprehensive unit, integration, and acce
 5. Atomic conditional updates and race-condition safety for `LASTONE`.
 6. Stale quote conflict handling (HTTP 409) and customer revision confirmation.
 7. End-to-end HTTP endpoints with Zod request validation.
+8. Frontend API client error handling and HTTP 409 conflict parsing.
 
 Run all tests from the root directory:
 ```bash
