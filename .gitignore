@@ -14,6 +14,8 @@ build/
 *.sqlite
 *.sqlite3
 *.log
+test-dbs/
+test-data/
 
 # Environment variables
 .env
